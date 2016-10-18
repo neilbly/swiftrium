@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28EEBED91DAE9393004B432D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EEBED81DAE9393004B432D /* AppDelegate.swift */; };
+		28EEBEDB1DAE9393004B432D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EEBEDA1DAE9393004B432D /* ViewController.swift */; };
+		28EEBEDE1DAE9393004B432D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EEBEDC1DAE9393004B432D /* Main.storyboard */; };
+		28EEBEE01DAE9393004B432D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EEBEDF1DAE9393004B432D /* Assets.xcassets */; };
+		28EEBEE31DAE9393004B432D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EEBEE11DAE9393004B432D /* LaunchScreen.storyboard */; };
+		B643307EDE209D1CBEC45BC0 /* Pods_MXAtrium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D280755FE4B2FD388E5F556D /* Pods_MXAtrium.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04491C5E30C22F8A6325FA20 /* Pods-MXAtrium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXAtrium.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXAtrium/Pods-MXAtrium.debug.xcconfig"; sourceTree = "<group>"; };
+		06ED018CA7A0DC5B22F05D8E /* Pods-MXAtrium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXAtrium.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXAtrium/Pods-MXAtrium.release.xcconfig"; sourceTree = "<group>"; };
+		28EEBED51DAE9393004B432D /* MXAtrium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXAtrium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EEBED81DAE9393004B432D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28EEBEDA1DAE9393004B432D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28EEBEDD1DAE9393004B432D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28EEBEDF1DAE9393004B432D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28EEBEE21DAE9393004B432D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28EEBEE41DAE9393004B432D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D280755FE4B2FD388E5F556D /* Pods_MXAtrium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXAtrium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EEBED21DAE9392004B432D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B643307EDE209D1CBEC45BC0 /* Pods_MXAtrium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DCEDA9EEDB3B7934612CCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04491C5E30C22F8A6325FA20 /* Pods-MXAtrium.debug.xcconfig */,
+				06ED018CA7A0DC5B22F05D8E /* Pods-MXAtrium.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28EEBECC1DAE9392004B432D = {
+			isa = PBXGroup;
+			children = (
+				28EEBED71DAE9393004B432D /* MXAtrium */,
+				28EEBED61DAE9393004B432D /* Products */,
+				11DCEDA9EEDB3B7934612CCC /* Pods */,
+				8753B129AF55FBCF8A7FE5A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28EEBED61DAE9393004B432D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EEBED51DAE9393004B432D /* MXAtrium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EEBED71DAE9393004B432D /* MXAtrium */ = {
+			isa = PBXGroup;
+			children = (
+				28EEBED81DAE9393004B432D /* AppDelegate.swift */,
+				28EEBEDA1DAE9393004B432D /* ViewController.swift */,
+				28EEBEDC1DAE9393004B432D /* Main.storyboard */,
+				28EEBEDF1DAE9393004B432D /* Assets.xcassets */,
+				28EEBEE11DAE9393004B432D /* LaunchScreen.storyboard */,
+				28EEBEE41DAE9393004B432D /* Info.plist */,
+			);
+			path = MXAtrium;
+			sourceTree = "<group>";
+		};
+		8753B129AF55FBCF8A7FE5A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D280755FE4B2FD388E5F556D /* Pods_MXAtrium.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EEBED41DAE9392004B432D /* MXAtrium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EEBEE71DAE9393004B432D /* Build configuration list for PBXNativeTarget "MXAtrium" */;
+			buildPhases = (
+				0450CDBE7E3F4492D70D26F9 /* [CP] Check Pods Manifest.lock */,
+				28EEBED11DAE9392004B432D /* Sources */,
+				28EEBED21DAE9392004B432D /* Frameworks */,
+				28EEBED31DAE9392004B432D /* Resources */,
+				944D303E43F0981653E43F9E /* [CP] Embed Pods Frameworks */,
+				C5CF6B9BA62D7ED35895ED1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXAtrium;
+			productName = MXAtrium;
+			productReference = 28EEBED51DAE9393004B432D /* MXAtrium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EEBECD1DAE9392004B432D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = friendless;
+				TargetAttributes = {
+					28EEBED41DAE9392004B432D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 28EEBED01DAE9392004B432D /* Build configuration list for PBXProject "MXAtrium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28EEBECC1DAE9392004B432D;
+			productRefGroup = 28EEBED61DAE9393004B432D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EEBED41DAE9392004B432D /* MXAtrium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EEBED31DAE9392004B432D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EEBEE31DAE9393004B432D /* LaunchScreen.storyboard in Resources */,
+				28EEBEE01DAE9393004B432D /* Assets.xcassets in Resources */,
+				28EEBEDE1DAE9393004B432D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0450CDBE7E3F4492D70D26F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		944D303E43F0981653E43F9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXAtrium/Pods-MXAtrium-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CF6B9BA62D7ED35895ED1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXAtrium/Pods-MXAtrium-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EEBED11DAE9392004B432D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EEBEDB1DAE9393004B432D /* ViewController.swift in Sources */,
+				28EEBED91DAE9393004B432D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28EEBEDC1DAE9393004B432D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EEBEDD1DAE9393004B432D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28EEBEE11DAE9393004B432D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EEBEE21DAE9393004B432D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28EEBEE51DAE9393004B432D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28EEBEE61DAE9393004B432D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28EEBEE81DAE9393004B432D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04491C5E30C22F8A6325FA20 /* Pods-MXAtrium.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MXAtrium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.MXAtrium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28EEBEE91DAE9393004B432D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06ED018CA7A0DC5B22F05D8E /* Pods-MXAtrium.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MXAtrium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.MXAtrium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EEBED01DAE9392004B432D /* Build configuration list for PBXProject "MXAtrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EEBEE51DAE9393004B432D /* Debug */,
+				28EEBEE61DAE9393004B432D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EEBEE71DAE9393004B432D /* Build configuration list for PBXNativeTarget "MXAtrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EEBEE81DAE9393004B432D /* Debug */,
+				28EEBEE91DAE9393004B432D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28EEBECD1DAE9392004B432D /* Project object */;
+}
